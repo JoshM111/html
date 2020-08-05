@@ -1,0 +1,40 @@
+Last login: Tue Aug  4 19:34:53 on ttys002
+jmm@Joshuas-MacBook-Pro ~ % cd desktop
+jmm@Joshuas-MacBook-Pro desktop % mkdir test
+jmm@Joshuas-MacBook-Pro desktop % cd test
+jmm@Joshuas-MacBook-Pro test % touch index.html
+jmm@Joshuas-MacBook-Pro test % touch syle.css
+jmm@Joshuas-MacBook-Pro test % touch commands.txt
+jmm@Joshuas-MacBook-Pro test % ls
+commands.txt	index.html	syle.css
+jmm@Joshuas-MacBook-Pro test % cp index.html index_2.html
+jmm@Joshuas-MacBook-Pro test % cd
+jmm@Joshuas-MacBook-Pro ~ % cd desktop
+jmm@Joshuas-MacBook-Pro desktop % mkdir directory
+jmm@Joshuas-MacBook-Pro desktop % cd test
+jmm@Joshuas-MacBook-Pro test % mv index_2.html ..
+jmm@Joshuas-MacBook-Pro test % cd
+jmm@Joshuas-MacBook-Pro ~ % ls
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures	this
+jmm@Joshuas-MacBook-Pro ~ % cd desktop
+jmm@Joshuas-MacBook-Pro desktop % ls
+codingdojo	directory	index_2.html	test
+jmm@Joshuas-MacBook-Pro desktop % mv index_2.html directory
+jmm@Joshuas-MacBook-Pro desktop % cd ..
+jmm@Joshuas-MacBook-Pro ~ % cd desktop
+jmm@Joshuas-MacBook-Pro desktop % cd test
+jmm@Joshuas-MacBook-Pro test % rm style.css
+rm: style.css: No such file or directory
+jmm@Joshuas-MacBook-Pro test % ls
+commands.txt	index.html	syle.css
+jmm@Joshuas-MacBook-Pro test % cd
+jmm@Joshuas-MacBook-Pro ~ % cd desktop
+jmm@Joshuas-MacBook-Pro desktop % cd directory
+jmm@Joshuas-MacBook-Pro directory % ls
+index_2.html
+jmm@Joshuas-MacBook-Pro directory % cd ..
+jmm@Joshuas-MacBook-Pro desktop % rm -rf destination
+jmm@Joshuas-MacBook-Pro desktop % ls
+codingdojo	directory	test
+jmm@Joshuas-MacBook-Pro desktop % 
